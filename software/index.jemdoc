@@ -1,0 +1,13 @@
+# jemdoc: menu{MENU}{software/index.html}{../}
+# jemdoc: addcss{../jemdoc.css}
+= Software
+
+== Covariate-assisted Spectural Clustering
+
+Hyesun, Yura and I implemented the algorithm described in Norbert Binkiewicz's [https://arxiv.org/abs/1411.2158 Covariate-assisted Spectual Clustering (2016)] in the form of an R (Rcpp) package.
+
+ - The original authors' implementation, although still available at Github, are not producing correct results (Dec 2016). 
+ - Our version runs 30 times faster.
+
+I will post a link to the package some time in the future.
+

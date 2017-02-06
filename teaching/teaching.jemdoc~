@@ -1,0 +1,14 @@
+# jemdoc: menu{MENU}{teaching/teaching.html}{../}
+# jemdoc: addcss{../jemdoc.css}
+
+= Teaching
+
+== Graduate Student Instructor at University of Michigan
+
+~~~
+{}{table}{courses}
+Course | Title  | Instructor | Semester ||
+Stats 412 |  Introduction to Probability & Statistics | Jackie Miller | Fall 2015 ||
+Stats 426 |  Introduction to Theoretical Statistics  | Shyamala Nagaraj | Winter 2016 ||
+Stats 406 |  Statistical Computing [./stats406/stats406.html (*Lab*)] | Yves Atchadé | Fall 2016
+~~~

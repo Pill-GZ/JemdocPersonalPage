@@ -1,0 +1,9 @@
+# jemdoc: menu{MENU}{trivia/index.html}{../}
+# jemdoc: addcss{../jemdoc.css}
+= Some trivial (but not obvious) things
+
+ - There is little reason to unanimously prefer [https://en.wikipedia.org/wiki/Fisher's_method Fisher's method] (sum of negative log p-values) over, say, Edginton's Method (sum of p-values) for combining p-values (although it is better known that Fisher's method and Bonferroni's method are good at picking out different alternatives). In some cases of small and distributed effects, the latter wins; see [./combine_p-values.html numerical example], [https://en.wikipedia.org/wiki/Fisher's_method\#cite_note-8 theory].
+
+ - You cannot arbitrarily design full conditional distributions and expect them to be compatible (only when they are compatible can you use Brook's lemma). I was suprised how this is glossed over by many people. ([./incompatible_full_conditionals.html numerical example], [https://www.jstor.org/stable/2289858 theory])
+
+ - You can recover the tree structure from the distance matrix of its nodes. (see [./tree_distance_matrix.html illustration with R])
