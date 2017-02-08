@@ -6,4 +6,4 @@
 
  - You cannot arbitrarily design full conditional distributions and expect them to be compatible (only when they are compatible can you use Brook's lemma). I was suprised how this is glossed over by many people. ([./incompatible_full_conditionals.html numerical example], [https://www.jstor.org/stable/2289858 theory])
 
- - You can recover the tree structure from the distance matrix of its nodes. (see [./tree_distance_matrix.html illustration with R])
+ - [./tree_distance_metric.html Some thoughts on trees and distance metrics]. You can recover the tree structure from the distance matrix of its nodes. (see [./tree_distance_matrix.html an R script])
