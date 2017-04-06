@@ -1,9 +1,13 @@
 # jemdoc: menu{MENU}{trivia/index.html}{../}
 # jemdoc: addcss{../jemdoc.css}
-= Some trivial (but not obvious) things
+= Some trivial (and maybe obvious) things
 
- - There is little reason to unanimously prefer [https://en.wikipedia.org/wiki/Fisher's_method Fisher's method] (sum of negative log p-values) over, say, Edginton's Method (sum of p-values) for combining p-values (although it is better known that Fisher's method and Bonferroni's method are good at picking out different alternatives). In some cases of small and distributed effects, the latter wins; see [./combine_p-values.html numerical example], [https://en.wikipedia.org/wiki/Fisher's_method\#cite_note-8 theory].
+ - [https://arxiv.org/pdf/1405.0680.pdf A useful variant of the Davis–Kahan theorem for statisticians] which bounds the distances between subspaces spaned by eigenvectors of a perturbed covariance matrix and the its counterpart of the uncontaminated one. Related is a [./subspace_dist.html variational characterization of distances between subspaces]; trivial, but may be less mysterious than other equivalent definitions.
+
+ - An iterative method for [./steifel_notes.pdf Optimization on Stiefel manifolds] by [http://noodle.med.yale.edu/hdtag/notes.html Hemant D. Tagare]. This method happens to fail when optimizating tr(XX'S) over X in the Steifel manifold when S is real symmetric (which is a common problem is statistics). See this [https://arxiv.org/pdf/1511.03688.pdf review paper] for a comparison of procedures for eigen-problems on data streams. One of the ideas is based on [http://link.springer.com/article/10.1007/BF01396012 rank-one modification of the symmetric eigen-problem].
+
+ - [./tree_distance_metric.html Some thoughts on trees and distance metrics]. You can recover the tree structure from the distance matrix of its nodes. (see [./tree_distance_matrix.html an R script])
 
  - You cannot arbitrarily design full conditional distributions and expect them to be compatible (only when they are compatible can you use Brook's lemma). I was suprised how this is glossed over by many people. ([./incompatible_full_conditionals.html numerical example], [https://www.jstor.org/stable/2289858 theory])
 
- - [./tree_distance_metric.html Some thoughts on trees and distance metrics]. You can recover the tree structure from the distance matrix of its nodes. (see [./tree_distance_matrix.html an R script])
+ - There is little reason to unanimously prefer [https://en.wikipedia.org/wiki/Fisher's_method Fisher's method] (sum of negative log p-values) over, say, Edginton's Method (sum of p-values) for combining p-values (although it is better known that Fisher's method and Bonferroni's method are good at picking out different alternatives). In some cases of small and distributed effects, the latter wins; see [./combine_p-values.html numerical example], [./Liptak_1958.pdf theory]. In particular, Edginton's Method is optimal when the p-values under the alternative are truncated exponentials.

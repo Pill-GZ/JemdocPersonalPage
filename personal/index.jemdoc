@@ -20,11 +20,16 @@
 - [https://www.rstudio.com/ Rstudio]
 - [https://plot.ly/ Plotly (amazing interactive plots)]
 - [https://github.com/yihui/printr printr (prints help pages with knitr)]
+- [https://www.stat.ubc.ca/~jenny/STAT545A/topic10_tablesCSS.html Fixing the annoying Rmarkdown table width default]
 
 == Quotes
 
 ~~~
-Wubalubadubdub --Rick
+
+"I have to return some videotapes" --Patrick
+
+"Wubalubadubdub" --Rick
+
 ~~~
 
 

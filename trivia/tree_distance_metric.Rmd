@@ -72,7 +72,7 @@ Some questions that arise are
 
 ## Q1. Can all distance metrics be generated (through addition, scalar multiplication) by $D_\mathcal{T}$?
 
-## A1. No.
+A1. No.
 
 For 3 nodes, the extremal rays are trees (one edge degenerate), so trees do generate all distance metrics.
 
@@ -80,12 +80,28 @@ For 5 nodes, a counter-example can be found in David's paper. A particular extre
 
 ## Q2. Are all $d \in D_\mathcal{T}$ on extremal rays?
 
+A2. No
+
+For example, two 3 node trees with $d^{(1)}_{13}=d^{(1)}_{12}+d^{(1)}_{23}$,  $d^{(2)}_{13}=d^{(2)}_{12}+d^{(2)}_{23}$, and  $d^{(1)}_{12}=1$, $d^{(1)}_{23}=2$, $d^{(2)}_{12}=2$, $d^{(2)}_{23}=1$.
+
+Then $d^{(3)} = d^{(1)}+d^{(2)}$ is a tree, but not a constant multiple of either.
+
+In fact, by the same argument, no tree can be an extremal ray of the cone. (Since all trees can be expressed as a convex combination of two trees 'perturbed' in the opposite direction. again, like all statements in this document, need to be made precise.)
+
+## Q3. Are trees on the facets?
+
+I.e., there cannot be an open ball around a $d\in D_\mathcal{T}$ that is contained in the cone of distance metrics.
+
+idk. My guess would be yes.
+
+## Q4. If we have a fuzzy measurement $d+\epsilon$ of distance metric $d\in D_\mathcal{T}$, can we recover the tree?
+
+idk. The statement is not well-formulated yet.
+
+## Q5. Is the concept of spanning tree / max spanning tree useful?
+
 idk.
 
-## Q3. If we have a fuzzy measurement $d+\epsilon$ of distance metric $d\in D_\mathcal{T}$, can we recover the tree?
+## Q6. Can we define something like a 'basis' for $D_\mathcal{T}$, convex combination of $D_\mathcal{T}$, or space of all distance metrics $D$?
 
-idk. It is not well-formulated. My guess is yes.
-
-## Q4. Is the concept of spanning tree / max spanning tree useful?
-
-idk.
+idk. My guess would be "not if we require orthogonality in the usual sense". There might be hope for another kind of basis. 

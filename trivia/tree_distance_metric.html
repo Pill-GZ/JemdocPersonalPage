@@ -166,23 +166,33 @@ $(document).ready(function () {
 <p>Some questions that arise are</p>
 <div id="q1.-can-all-distance-metrics-be-generated-through-addition-scalar-multiplication-by-d_mathcalt" class="section level2">
 <h2><span class="header-section-number">3.1</span> Q1. Can all distance metrics be generated (through addition, scalar multiplication) by <span class="math inline">\(D_\mathcal{T}\)</span>?</h2>
-</div>
-<div id="a1.-no." class="section level2">
-<h2><span class="header-section-number">3.2</span> A1. No.</h2>
+<p>A1. No.</p>
 <p>For 3 nodes, the extremal rays are trees (one edge degenerate), so trees do generate all distance metrics.</p>
 <p>For 5 nodes, a counter-example can be found in David’s paper. A particular extremal ray was found, but is not a tree.</p>
 </div>
 <div id="q2.-are-all-d-in-d_mathcalt-on-extremal-rays" class="section level2">
-<h2><span class="header-section-number">3.3</span> Q2. Are all <span class="math inline">\(d \in D_\mathcal{T}\)</span> on extremal rays?</h2>
+<h2><span class="header-section-number">3.2</span> Q2. Are all <span class="math inline">\(d \in D_\mathcal{T}\)</span> on extremal rays?</h2>
+<p>A2. No</p>
+<p>For example, two 3 node trees with <span class="math inline">\(d^{(1)}_{13}=d^{(1)}_{12}+d^{(1)}_{23}\)</span>, <span class="math inline">\(d^{(2)}_{13}=d^{(2)}_{12}+d^{(2)}_{23}\)</span>, and <span class="math inline">\(d^{(1)}_{12}=1\)</span>, <span class="math inline">\(d^{(1)}_{23}=2\)</span>, <span class="math inline">\(d^{(2)}_{12}=2\)</span>, <span class="math inline">\(d^{(2)}_{23}=1\)</span>.</p>
+<p>Then <span class="math inline">\(d^{(3)} = d^{(1)}+d^{(2)}\)</span> is a tree, but not a constant multiple of either.</p>
+<p>In fact, by the same argument, no tree can be an extremal ray of the cone. (Since all trees can be expressed as a convex combination of two trees ‘perturbed’ in the opposite direction. again, like all statements in this document, need to be made precise.)</p>
+</div>
+<div id="q3.-are-trees-on-the-facets" class="section level2">
+<h2><span class="header-section-number">3.3</span> Q3. Are trees on the facets?</h2>
+<p>I.e., there cannot be an open ball around a <span class="math inline">\(d\in D_\mathcal{T}\)</span> that is contained in the cone of distance metrics.</p>
+<p>idk. My guess would be yes.</p>
+</div>
+<div id="q4.-if-we-have-a-fuzzy-measurement-depsilon-of-distance-metric-din-d_mathcalt-can-we-recover-the-tree" class="section level2">
+<h2><span class="header-section-number">3.4</span> Q4. If we have a fuzzy measurement <span class="math inline">\(d+\epsilon\)</span> of distance metric <span class="math inline">\(d\in D_\mathcal{T}\)</span>, can we recover the tree?</h2>
+<p>idk. The statement is not well-formulated yet.</p>
+</div>
+<div id="q5.-is-the-concept-of-spanning-tree-max-spanning-tree-useful" class="section level2">
+<h2><span class="header-section-number">3.5</span> Q5. Is the concept of spanning tree / max spanning tree useful?</h2>
 <p>idk.</p>
 </div>
-<div id="q3.-if-we-have-a-fuzzy-measurement-depsilon-of-distance-metric-din-d_mathcalt-can-we-recover-the-tree" class="section level2">
-<h2><span class="header-section-number">3.4</span> Q3. If we have a fuzzy measurement <span class="math inline">\(d+\epsilon\)</span> of distance metric <span class="math inline">\(d\in D_\mathcal{T}\)</span>, can we recover the tree?</h2>
-<p>idk. It is not well-formulated. My guess is yes.</p>
-</div>
-<div id="q4.-is-the-concept-of-spanning-tree-max-spanning-tree-useful" class="section level2">
-<h2><span class="header-section-number">3.5</span> Q4. Is the concept of spanning tree / max spanning tree useful?</h2>
-<p>idk.</p>
+<div id="q6.-can-we-define-something-like-a-basis-for-d_mathcalt-convex-combination-of-d_mathcalt-or-space-of-all-distance-metrics-d" class="section level2">
+<h2><span class="header-section-number">3.6</span> Q6. Can we define something like a ‘basis’ for <span class="math inline">\(D_\mathcal{T}\)</span>, convex combination of <span class="math inline">\(D_\mathcal{T}\)</span>, or space of all distance metrics <span class="math inline">\(D\)</span>?</h2>
+<p>idk. My guess would be “not if we require orthogonality in the usual sense”. There might be hope for another kind of basis.</p>
 </div>
 </div>
 <div class="footnotes">

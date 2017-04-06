@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <link rel="stylesheet" href="../jemdoc.css" type="text/css" />
-<title>Some trivial (but not obvious) things</title>
+<title>Some trivial (and maybe obvious) things</title>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -23,10 +23,18 @@
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>Some trivial (but not obvious) things</h1>
+<h1>Some trivial (and maybe obvious) things</h1>
 </div>
 <ul>
-<li><p>There is little reason to unanimously prefer <a href="https://en.wikipedia.org/wiki/Fisher's_method">Fisher's method</a> (sum of negative log p-values) over, say, Edginton's Method (sum of p-values) for combining p-values (although it is better known that Fisher's method and Bonferroni's method are good at picking out different alternatives). In some cases of small and distributed effects, the latter wins; see <a href="./combine_p-values.html">numerical example</a>, <a href="https://en.wikipedia.org/wiki/Fisher's_method#cite_note-8">theory</a>.</p>
+<li><p><a href="https://arxiv.org/pdf/1405.0680.pdf">A useful variant of the Davis–Kahan theorem for statisticians</a> which bounds the distances between subspaces spaned by eigenvectors of a perturbed covariance matrix and the its counterpart of the uncontaminated one. Related is a <a href="./subspace_dist.html">variational characterization of distances between subspaces</a>; trivial, but may be less mysterious than other equivalent definitions.</p>
+</li>
+</ul>
+<ul>
+<li><p>An iterative method for <a href="./steifel_notes.pdf">Optimization on Stiefel manifolds</a> by <a href="http://noodle.med.yale.edu/hdtag/notes.html">Hemant D. Tagare</a>. This method happens to fail when optimizating tr(XX'S) over X in the Steifel manifold when S is real symmetric (which is a common problem is statistics). See this <a href="https://arxiv.org/pdf/1511.03688.pdf">review paper</a> for a comparison of procedures for eigen-problems on data streams. One of the ideas is based on <a href="http://link.springer.com/article/10.1007/BF01396012">rank-one modification of the symmetric eigen-problem</a>.</p>
+</li>
+</ul>
+<ul>
+<li><p><a href="./tree_distance_metric.html">Some thoughts on trees and distance metrics</a>. You can recover the tree structure from the distance matrix of its nodes. (see <a href="./tree_distance_matrix.html">an R script</a>)</p>
 </li>
 </ul>
 <ul>
@@ -34,12 +42,12 @@
 </li>
 </ul>
 <ul>
-<li><p><a href="./tree_distance_metric.html">Some thoughts on trees and distance metrics</a>. You can recover the tree structure from the distance matrix of its nodes. (see <a href="./tree_distance_matrix.html">an R script</a>)</p>
+<li><p>There is little reason to unanimously prefer <a href="https://en.wikipedia.org/wiki/Fisher's_method">Fisher's method</a> (sum of negative log p-values) over, say, Edginton's Method (sum of p-values) for combining p-values (although it is better known that Fisher's method and Bonferroni's method are good at picking out different alternatives). In some cases of small and distributed effects, the latter wins; see <a href="./combine_p-values.html">numerical example</a>, <a href="./Liptak_1958.pdf">theory</a>. In particular, Edginton's Method is optimal when the p-values under the alternative are truncated exponentials.</p>
 </li>
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2017-02-07 20:41:02 EST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2017-04-05 15:43:54 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
