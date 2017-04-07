@@ -8,19 +8,19 @@
 
 Contact me by email at [gaozheng@umich.edu]
 
-*[R-intro/Stats414_R-intro.html Topic 1: A gentle introduction to R]*
 
-	[R-intro/Stats414_R-intro_ex1.nb.html - exercise 1] [R-intro/Stats414_R-intro_ex2.nb.html - exercise 2] [R-intro/Stats414_R-intro_ex3.nb.html - exercise 3]
+- *[R-intro/Stats414_R-intro.html Topic 1: A gentle introduction to R]*
+   -- [R-intro/Stats414_R-intro_ex1.nb.html - exercise 1] [R-intro/Stats414_R-intro_ex2.nb.html - exercise 2] [R-intro/Stats414_R-intro_ex3.nb.html - exercise 3]
 
+- *[PCA/PCA.html Topic 2: A tutorial on Principal Component Analysis]*
+   -- [PCA/PCA_derivations.html Supplementary: Deriving Principal Components]
 
-*[PCA/PCA.html Topic 2: A tutorial on Principal Component Analysis]*
+- *[Simulation/simulation.html Topic 3: Simulation: LLN, CLT, MC, and Testing Strategies]*
 
-[PCA/PCA_derivations.html Supplementary: Deriving Principal Components]
+- *[LogisticReg/LogisticReg.html Topic 4: (Part 1) Logistic Regression, Model Selestion, and Cross Validation]*
 
-A cute [https://en.wikipedia.org/wiki/Min-max_theorem technical point about eigenvalues]
+- *Topic 4: (Part 2) Classification Trees and Boosting*
 
-
-*[Simulation/simulation.html Topic 3: Simulation: LLN, CLT, MC, and Testing Strategies]*
 
 == Some links to related resources
 
