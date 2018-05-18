@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <link rel="stylesheet" href="../jemdoc.css" type="text/css" />
-<title>Some trivial (and maybe obvious) things</title>
+<title>Some Statistics trivia</title>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -18,15 +18,24 @@
 <div class="menu-item"><a href="../trivia/index.html" class="current">Trivia</a></div>
 <div class="menu-item"><a href="../software/index.html">Software</a></div>
 <div class="menu-category">Other</div>
+<div class="menu-item"><a href="../consulting/index.html">Consulting</a></div>
 <div class="menu-item"><a href="../teaching/index.html">Teaching</a></div>
 <div class="menu-item"><a href="../personal/index.html">Personal</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>Some trivial (and maybe obvious) things</h1>
+<h1>Some Statistics trivia</h1>
 </div>
 <ul>
-<li><p><a href="https://arxiv.org/pdf/1405.0680.pdf">A useful variant of the Davis–Kahan theorem for statisticians</a> which bounds the distances between subspaces spaned by eigenvectors of a perturbed covariance matrix and the its counterpart of the uncontaminated one. Related is a <a href="./subspace_dist.html">variational characterization of distances between subspaces</a>; trivial, but may be less mysterious than other equivalent definitions.</p>
+<li><p><a href="https://terrytao.wordpress.com/category/teaching/254a-random-matrices/">Terence Tao's notes on random matrices</a></p>
+</li>
+</ul>
+<ul>
+<li><p>The Alternating Conditional Expectation algorithm proposed in <a href="https://pdfs.semanticscholar.org/e1ee/012f12793b4021352bb953f2fe9a40c33cf2.pdf">Breiman and Friedman (1985)</a>. See a quick <a href="./ACE.nb.html">replicate of the first example</a>. I am surprised that I have never heard of it until now (Feb 2018).</p>
+</li>
+</ul>
+<ul>
+<li><p><a href="https://arxiv.org/pdf/1405.0680.pdf">A useful variant of the Davis–Kahan theorem for statisticians</a> which bounds the distances between subspaces spaned by eigenvectors of a perturbed covariance matrix and the its counterpart of the uncontaminated one. Related is a <a href="./subspace_dist.html">variational characterization of distances between subspaces</a>.</p>
 </li>
 </ul>
 <ul>
@@ -45,9 +54,17 @@
 <li><p>There is little reason to unanimously prefer <a href="https://en.wikipedia.org/wiki/Fisher's_method">Fisher's method</a> (sum of negative log p-values) over, say, Edginton's Method (sum of p-values) for combining p-values (although it is better known that Fisher's method and Bonferroni's method are good at picking out different alternatives). In some cases of small and distributed effects, the latter wins; see <a href="./combine_p-values.html">numerical example</a>, <a href="./Liptak_1958.pdf">theory</a>. In particular, Edginton's Method is optimal when the p-values under the alternative are truncated exponentials.</p>
 </li>
 </ul>
+<ul>
+<li><p>Don't include both log(x) and log^2(x) in your linear model; see <a href="https://stats.stackexchange.com/questions/312662/multicollinearity-between-lnx-and-lnx2">this post</a>.</p>
+</li>
+</ul>
+<ul>
+<li><p>An elegant derivation of <a href="https://math.stackexchange.com/questions/1456567/expected-maximum-absolute-value-of-n-iid-standard-gaussians">an upper bound of the expectated maximum absolute value of i.i.d. Gaussian random variables</a> by <a href="http://probability.univ.kiev.ua/index.php?page=userinfo&amp;person=zhoraster">zhoraster</a>.</p>
+</li>
+</ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2017-04-05 15:43:54 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2018-05-18 14:23:28 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>

@@ -1,8 +1,12 @@
 # jemdoc: menu{MENU}{trivia/index.html}{../}
 # jemdoc: addcss{../jemdoc.css}
-= Some trivial (and maybe obvious) things
+= Some Statistics trivia
 
- - [https://arxiv.org/pdf/1405.0680.pdf A useful variant of the Davis–Kahan theorem for statisticians] which bounds the distances between subspaces spaned by eigenvectors of a perturbed covariance matrix and the its counterpart of the uncontaminated one. Related is a [./subspace_dist.html variational characterization of distances between subspaces]; trivial, but may be less mysterious than other equivalent definitions.
+ - [https://terrytao.wordpress.com/category/teaching/254a-random-matrices/ Terence Tao's notes on random matrices]
+
+ - The Alternating Conditional Expectation algorithm proposed in [https://pdfs.semanticscholar.org/e1ee/012f12793b4021352bb953f2fe9a40c33cf2.pdf Breiman and Friedman (1985)]. See a quick [./ACE.nb.html replicate of the first example]. I am surprised that I have never heard of it until now (Feb 2018).
+
+ - [https://arxiv.org/pdf/1405.0680.pdf A useful variant of the Davis–Kahan theorem for statisticians] which bounds the distances between subspaces spaned by eigenvectors of a perturbed covariance matrix and the its counterpart of the uncontaminated one. Related is a [./subspace_dist.html variational characterization of distances between subspaces].
 
  - An iterative method for [./steifel_notes.pdf Optimization on Stiefel manifolds] by [http://noodle.med.yale.edu/hdtag/notes.html Hemant D. Tagare]. This method happens to fail when optimizating tr(XX'S) over X in the Steifel manifold when S is real symmetric (which is a common problem is statistics). See this [https://arxiv.org/pdf/1511.03688.pdf review paper] for a comparison of procedures for eigen-problems on data streams. One of the ideas is based on [http://link.springer.com/article/10.1007/BF01396012 rank-one modification of the symmetric eigen-problem].
 
@@ -11,3 +15,10 @@
  - You cannot arbitrarily design full conditional distributions and expect them to be compatible (only when they are compatible can you use Brook's lemma). I was suprised how this is glossed over by many people. ([./incompatible_full_conditionals.html numerical example], [https://www.jstor.org/stable/2289858 theory])
 
  - There is little reason to unanimously prefer [https://en.wikipedia.org/wiki/Fisher's_method Fisher's method] (sum of negative log p-values) over, say, Edginton's Method (sum of p-values) for combining p-values (although it is better known that Fisher's method and Bonferroni's method are good at picking out different alternatives). In some cases of small and distributed effects, the latter wins; see [./combine_p-values.html numerical example], [./Liptak_1958.pdf theory]. In particular, Edginton's Method is optimal when the p-values under the alternative are truncated exponentials.
+
+- Don't include both log(x) and log^2(x) in your linear model; see [https://stats.stackexchange.com/questions/312662/multicollinearity-between-lnx-and-lnx2 this post].
+
+- An elegant derivation of [https://math.stackexchange.com/questions/1456567/expected-maximum-absolute-value-of-n-iid-standard-gaussians an upper bound of the expectated maximum absolute value of i.i.d. Gaussian random variables] by [http://probability.univ.kiev.ua/index.php?page=userinfo&person=zhoraster zhoraster].
+
+
+

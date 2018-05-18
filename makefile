@@ -1,4 +1,5 @@
-all : index.html personal/index.html teaching/index.html trivia/index.html software/index.html
+all : index.html personal/index.html teaching/index.html \
+  trivia/index.html software/index.html consulting/index.html
 
 index.html : MENU ./index.jemdoc
 	jemdoc index.jemdoc
@@ -20,3 +21,6 @@ trivia/index.html : MENU ./trivia/index.jemdoc
 
 software/index.html : MENU ./software/index.jemdoc
 	jemdoc ./software/index.jemdoc
+
+consulting/index.html : MENU ./consulting/index.jemdoc
+	jemdoc ./consulting/index.jemdoc
