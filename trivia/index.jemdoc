@@ -1,6 +1,7 @@
 # jemdoc: menu{MENU}{trivia/index.html}{../}
 # jemdoc: addcss{../jemdoc.css}
-= Some Statistics trivia
+= Some statistics related things
+== collected here to share and for reference
 
  - [https://terrytao.wordpress.com/category/teaching/254a-random-matrices/ Terence Tao's notes on random matrices]
 

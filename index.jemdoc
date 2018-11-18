@@ -1,11 +1,11 @@
 # jemdoc: menu{MENU}{./index.html}
 # jemdoc: addcss{jemdoc.css}
-= GAO Zheng 
+= Zheng Gao
 
 ~~~
 {}{img_left}{image.jpg}{}{100}{}{}
 
-Ph.D. Student,\n
+Ph.D. Candidate,\n
 Department of Statistics,\n
 University of Michigan\n
 
@@ -15,15 +15,21 @@ I am currently a Ph.D. student at
 [https://lsa.umich.edu/stats/ Department of Statistics] at 
 [https://umich.edu/ University of Michigan] 
 
-I graduated with a Bachelor's degree in [https://www.ise.nus.edu.sg/ Industrial and Systems Engineering] from [http://www.nus.edu.sg/ National University of Singapore]. I also majored in [http://www.fas.nus.edu.sg/ecs/ Economics] and [http://ww1.math.nus.edu.sg/ Mathematics].
+My research interests include high-dimensional statsitcs, large-scale multiple testing, extremes values, algorithms on data streams, and their applications in cybersecurity and biomedical sciences. 
+
+I graduated with a Bachelor's degree in [https://www.ise.nus.edu.sg/ Industrial and Systems Engineering] from [http://www.nus.edu.sg/ National University of Singapore]. I also studied [http://www.fas.nus.edu.sg/ecs/ Economics] and [http://ww1.math.nus.edu.sg/ Mathematics].
+
+My name is pronounced \[dʒəŋ gaw\].
 
 == Seminars and reading groups
 
-I am organizing the [https://sites.google.com/a/umich.edu/statss/home/seminar-series-2017-2018 2017-2018 Statistics Student Seminar], together with [http://www.ghunt.info/ Gregory Hunt].
-
 == Past seminars and reading groups
 
-2017 reading group on modern ideas in statistical theory, roughly based on [http://statweb.stanford.edu/~candes/ Emmanuel Candes]'s notes on [http://statweb.stanford.edu/~candes/stats300c/index.html STATS300C], together with Hyesun Yoo, Jinqi Shen, and [http://www-personal.umich.edu/~rfzhao/index.html Ruofei Zhao].
+- [https://sites.google.com/a/umich.edu/statss/seminar-series-2017-2018 2017-2018 Statistics Student Seminar], together with [http://www.ghunt.info/ Gregory Hunt].
+
+- 2018 reading group on high-dimensional probability, roughly based on [https://www.math.uci.edu/~rvershyn/ Roman Vershynin]'s book [https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html High-Dimensional Probability], together with Xinzhou Guo, Jinqi Shen, Yinqiu He, Yuchen Liao, and Yun Wei.
+
+- 2017 reading group on modern ideas in statistical theory, roughly based on [http://statweb.stanford.edu/~candes/ Emmanuel Candes]'s notes on [http://statweb.stanford.edu/~candes/stats300c/index.html STATS300C], together with Hyesun Yoo, Jinqi Shen, and [http://www-personal.umich.edu/~rfzhao/index.html Ruofei Zhao].
 
 == Contact
 

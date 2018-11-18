@@ -1,0 +1,37 @@
+# jemdoc: menu{MENU}{research/index.html}{../}
+# jemdoc: addcss{../jemdoc.css}
+= Research
+
+My research interests include high-dimensional statsitcs, large-scale multiple testing, extremes values, algorithms on data streams, and their applications in cybersecurity and biomedical sciences. 
+
+
+= Papers and preprints
+
+- *Fundamental Limits of Exact Support Recovery in High Dimensions* 
+\n Zheng Gao, Stilian Stoev. 
+\n Submitted to the Annals of Statistics. \[[papers/FLESR_arXiv.pdf pdf]\]\[[https://arxiv.org/abs/1811.05124 arXiv]\]
+
+
+- *Anomaly Detection in High-dimensional Data Streams*
+\n Zheng Gao, Stilian Stoev. 
+\n In preparation.
+
+
+- *All-packet MONintoring at ISP-scale and Online Statistical Anomaly Detection in Fast Network Streams*
+\n Zheng Gao, Rajat Tandon, Michalis, Michalis Kallitsis, Stilian Stoev. 
+\n In preparation.
+
+
+- *Fast Online Low-Rank Tensor Decomposition*
+\n Zheng Gao, Ruofei Zhao.
+\n In preparation.
+
+
+== Prior to 2015
+
+- *The distribution of incubation and relapse times in experimental human infections with the malaria parasite Plasmodium vivax* 
+\n Andrew A Lover, Xiahong Zhao, Zheng Gao, Richard J. Coker, and Alex R. Cook.
+\n BMC Infect Dis. 2014; 14: 539. \[[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4287165/ link]\]
+
+
+- [papers/FYP_Thesis.pdf An undergraduate thesis]

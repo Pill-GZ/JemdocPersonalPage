@@ -7,7 +7,7 @@ This is directly copied from [this post](https://math.stackexchange.com/question
 
 Let $X_1, X_2, \cdots, X_n$ be independent standard Gaussian random variables. Then $$\mathbb{E}\left[\max_{i=1}^n \left|X_i\right| \right] \leq \sqrt{C\log_e n}.$$
 
-The inequality holds with $C=\sqrt{2}$, and this is the optimal constant (the optimality follows from [here](https://math.stackexchange.com/questions/89030/expectation-of-the-maximum-of-gaussian-random-variables)).
+The inequality holds with $C=2$, and this is the optimal constant (the optimality follows from [here](https://math.stackexchange.com/questions/89030/expectation-of-the-maximum-of-gaussian-random-variables)).
 
 Outline of the proof: 
 
