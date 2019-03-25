@@ -2,7 +2,7 @@
 # jemdoc: addcss{../jemdoc.css}
 = Research
 
-My research interests include high-dimensional statsitcs, large-scale multiple testing, extremes values, algorithms on data streams, and their applications in cybersecurity and biomedical sciences. 
+My research interests include high-dimensional statistics, large-scale multiple testing, extremes values, algorithms on data streams, and their applications in cybersecurity and genetics. 
 
 
 = Papers and preprints
@@ -18,14 +18,21 @@ My research interests include high-dimensional statsitcs, large-scale multiple t
 
 
 - *All-packet MONintoring at ISP-scale and Online Statistical Anomaly Detection in Fast Network Streams*
-\n Zheng Gao, Rajat Tandon, Michalis, Michalis Kallitsis, Stilian Stoev. 
-\n In preparation.
+\n Zheng Gao, Rajat Tandon, Michalis Kallitsis, Stilian Stoev. 
+\n Submitted to IEEE INFOCOM.
 
 
 - *Fast Online Low-Rank Tensor Decomposition*
 \n Zheng Gao, Ruofei Zhao.
 \n In preparation.
 
+~~~
+{}{img_left}{felix.gif}{}{100}{}{}
+~~~
+
+- *Statistical Limits of Genome-wide Association Studies: an Omnigenetic View* 
+\n Zheng Gao. 
+\n In preparation. 
 
 == Prior to 2015
 
@@ -34,4 +41,4 @@ My research interests include high-dimensional statsitcs, large-scale multiple t
 \n BMC Infect Dis. 2014; 14: 539. \[[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4287165/ link]\]
 
 
-- [papers/FYP_Thesis.pdf An undergraduate thesis]
+- [papers/FYP_Thesis.pdf Undergraduate thesis]
