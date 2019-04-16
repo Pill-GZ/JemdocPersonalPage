@@ -9,7 +9,7 @@ My research interests include high-dimensional statistics, large-scale multiple 
 
 - *Fundamental Limits of Exact Support Recovery in High Dimensions* 
 \n Zheng Gao, Stilian Stoev. 
-\n Submitted to the Annals of Statistics. \[[papers/FLESR_arXiv.pdf pdf]\]\[[https://arxiv.org/abs/1811.05124 arXiv]\]
+\n Submitted to Bernoulli. \[[papers/FLESR_arXiv.pdf pdf]\]\[[https://arxiv.org/abs/1811.05124 arXiv]\]
 
 
 - *Anomaly Detection in High-dimensional Data Streams*
@@ -26,11 +26,18 @@ My research interests include high-dimensional statistics, large-scale multiple 
 \n Zheng Gao, Ruofei Zhao.
 \n In preparation.
 
+
+- *U-PASS: unified power analysis and forensics for qualitative traits in genetic association studies* 
+\n Zheng Gao, Jonathan Terhorst, Cristopher Van Hout, Stilian Stoev .
+\n Submitted to Bioinformatics. \[[power.stat.lsa.umich.edu/u-pass/ the interactive software application]\] 
+\[[https://www.biorxiv.org/content/early/2019/04/13/605766 pre-print on bioRxiv]\]
+
+
 ~~~
 {}{img_left}{felix.gif}{}{100}{}{}
 ~~~
 
-- *Statistical Limits of Genome-wide Association Studies: an Omnigenetic View* 
+- *Fundamental Limits of Support Recovery in High-dimensional Categorical Data Analysis* 
 \n Zheng Gao. 
 \n In preparation. 
 
@@ -41,4 +48,4 @@ My research interests include high-dimensional statistics, large-scale multiple 
 \n BMC Infect Dis. 2014; 14: 539. \[[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4287165/ link]\]
 
 
-- [papers/FYP_Thesis.pdf Undergraduate thesis]
+# - [papers/FYP_Thesis.pdf Undergraduate thesis]
