@@ -29,15 +29,16 @@ My research interests include high-dimensional statistics, large-scale multiple 
 
 - *U-PASS: unified power analysis and forensics for qualitative traits in genetic association studies* 
 \n Zheng Gao, Jonathan Terhorst, Cristopher Van Hout, Stilian Stoev .
-\n Submitted to Bioinformatics. \[[power.stat.lsa.umich.edu/u-pass/ the interactive software application]\] 
-\[[https://www.biorxiv.org/content/early/2019/04/13/605766 pre-print on bioRxiv]\]
+\n Submitted to Bioinformatics. \[[https://power.stat.lsa.umich.edu/u-pass/ interactive software application]\] 
+\[[https://www.biorxiv.org/content/10.1101/605766v3 bioRxiv]\]
 
 
 ~~~
 {}{img_left}{felix.gif}{}{100}{}{}
 ~~~
 
-- *Fundamental Limits of Support Recovery in High-dimensional Categorical Data Analysis* 
+- *Five Shades of Grey* 
+\n a.k.a., Fundamental Limits of Multiple Testing for Categorical Data
 \n Zheng Gao. 
 \n In preparation. 
 
