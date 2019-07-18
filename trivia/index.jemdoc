@@ -18,7 +18,9 @@
 
 == Stats
 
- - A [./prob_puzzle.nb.html probability puzzle] that I couldn't solve during an interview. (Dec 2018)
+ - [https://timvieira.github.io/blog/post/2014/08/01/gumbel-max-trick-and-weighted-reservoir-sampling/ A sampling trick on data streams] (May 2019)
+
+ - A [./prob_puzzle.nb.html probability puzzle] that I couldn't solve during an interview.
 
  - My second favorite statistical head-scratcher (after [https://en.wikipedia.org/wiki/Stein%27s_example Stein's paradox]) is [./thresholding_paradox.nb.html the sub-optimality of thresholding procedures] (partly because we found it. (Nov 2018)
 
