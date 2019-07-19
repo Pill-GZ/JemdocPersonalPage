@@ -18,6 +18,9 @@
 
 == Stats
 
+ - Don't use [https://en.wikipedia.org/wiki/Receiver_operating_characteristic AUROC] when predicting rare events. The [https://en.wikipedia.org/wiki/Precision_and_recall precision-recall curve] handles multiple testing (through FDR) and better reflects the difficulty of the problem. 
+   See also, a [https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/ post] by [https://machinelearningmastery.com/about/ Jason Brownlee]. (Jul 2019)
+
  - [https://timvieira.github.io/blog/post/2014/08/01/gumbel-max-trick-and-weighted-reservoir-sampling/ A sampling trick on data streams] (May 2019)
 
  - A [./prob_puzzle.nb.html probability puzzle] that I couldn't solve during an interview.
