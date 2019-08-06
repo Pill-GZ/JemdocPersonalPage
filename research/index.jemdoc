@@ -2,24 +2,27 @@
 # jemdoc: addcss{../jemdoc.css}
 = Research
 
-My research interests include high-dimensional statistics, large-scale multiple testing, extremes values, algorithms on data streams, and their applications in cybersecurity and genetics. 
+I am driven by real data problems, and develop theories (if they are relevant), software (if they are useful), and new methods (only when necessary).
+
+Applications in cybersecurity and genetics have led me to study high-dimensional statistics, large-scale multiple testing, extremes values, and algorithms on data streams. 
 
 
 = Papers and preprints
 
 - *Fundamental Limits of Exact Support Recovery in High Dimensions* 
 \n Zheng Gao, Stilian Stoev. 
-\n Submitted to Bernoulli. \[[papers/FLESR_arXiv.pdf pdf]\]\[[https://arxiv.org/abs/1811.05124 arXiv]\]
+\n Under revision at Bernoulli \[[papers/FLESR_arXiv.pdf pdf]\]\[[https://arxiv.org/abs/1811.05124 arXiv]\]
+\n Best Student Paper at \[[https://web.math.pmf.unizg.hr/eva2019/competitions-1/best-student-paper EVA 2019]\].
 
 
-- *Anomaly Detection in High-dimensional Data Streams*
-\n Zheng Gao, Stilian Stoev. 
+- *Detection and Identification of Sparse Anomalies in High-dimensional Data Streams*
+\n Zheng Gao, Stilian Stoev, Michalis Kallitsis. 
 \n In preparation.
 
 
-- *All-packet MONintoring at ISP-scale and Online Statistical Anomaly Detection in Fast Network Streams*
-\n Zheng Gao, Rajat Tandon, Michalis Kallitsis, Stilian Stoev. 
-\n Submitted to IEEE INFOCOM.
+#- *All-packet MONintoring at ISP-scale and Online Statistical Anomaly Detection in Fast Network Streams*
+#\n Zheng Gao, Rajat Tandon, Michalis Kallitsis, Stilian Stoev. 
+#\n Submitted to IEEE INFOCOM.
 
 
 - *Fast Online Low-Rank Tensor Decomposition*
@@ -29,7 +32,7 @@ My research interests include high-dimensional statistics, large-scale multiple 
 
 - *U-PASS: unified power analysis and forensics for qualitative traits in genetic association studies* 
 \n Zheng Gao, Jonathan Terhorst, Cristopher Van Hout, Stilian Stoev .
-\n Submitted to Bioinformatics. \[[https://power.stat.lsa.umich.edu/u-pass/ interactive software application]\] 
+\n Bioinformatics (in press) \[[https://power.stat.lsa.umich.edu/u-pass/ interactive software application]\] 
 \[[https://www.biorxiv.org/content/10.1101/605766v3 bioRxiv]\]
 
 
@@ -39,7 +42,6 @@ My research interests include high-dimensional statistics, large-scale multiple 
 
 - *Five Shades of Grey* 
 \n a.k.a., Fundamental Limits of Multiple Testing for Categorical Data
-\n Zheng Gao. 
 \n In preparation. 
 
 == Prior to 2015
