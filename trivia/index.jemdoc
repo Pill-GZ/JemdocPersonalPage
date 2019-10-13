@@ -4,7 +4,7 @@
 == collected here to share and for reference
 
 
-== R Shiny
+== R & Shiny
 
  - Add a load spinner in Shiny with [https://github.com/andrewsali/shinycssloaders shinycssloaders] in two lines of code. [https://cran.r-project.org/web/packages/shinycssloaders/index.html Package on CRAN] (Mar 2019)
 
@@ -16,6 +16,11 @@
 
  - A post on [https://stackoverflow.com/questions/39436713/r-shiny-reactivevalues-vs-reactive the difference between reactive and reactiveValues] in Shiny (Feb 2019).
 
+ - [https://github.com/yihui/printr printr (prints help pages with knitr)]
+ 
+ - [https://www.stat.ubc.ca/~jenny/STAT545A/topic10_tablesCSS.html Fixing the annoying Rmarkdown table width default]
+
+
 == Stats
 
  - Don't use [https://en.wikipedia.org/wiki/Receiver_operating_characteristic AUROC] when predicting rare events. The [https://en.wikipedia.org/wiki/Precision_and_recall precision-recall curve] handles multiple testing (through FDR) and better reflects the difficulty of the problem. 
@@ -25,9 +30,9 @@
 
  - A [./prob_puzzle.nb.html probability puzzle] that I couldn't solve during an interview.
 
- - My second favorite statistical head-scratcher (after [https://en.wikipedia.org/wiki/Stein%27s_example Stein's paradox]) is [./thresholding_paradox.nb.html the sub-optimality of thresholding procedures] (partly because we found it. (Nov 2018)
+ - My second favorite statistical head-scratcher (after [https://en.wikipedia.org/wiki/Stein%27s_example Stein's paradox]) is [./thresholding_paradox.nb.html the sub-optimality of thresholding procedures] (partly because we found it). (Nov 2018)
 
- - There is ("as there ought to be") a [https://stats.stackexchange.com/questions/81395/relationship-between-ridge-regression-and-pca-regression connection between ridge regression and principal component regression]. See also, the [https://www.tandfonline.com/doi/abs/10.1080/01621459.1977.10479910 "57 varieties" paper] by Dempster.
+ - There is ("as there ought to be") a [https://stats.stackexchange.com/questions/81395/relationship-between-ridge-regression-and-pca-regression connection between ridge regression and principal component regression]. See also, the [https://www.tandfonline.com/doi/abs/10.1080/01621459.1977.10479910 "57 varieties" paper] by Dempster et al..
 
  - [https://terrytao.wordpress.com/category/teaching/254a-random-matrices/ Terence Tao's notes on random matrices]
 
@@ -45,7 +50,7 @@
 
  - Don't include both log(x) and log^2(x) in your linear model; see [https://stats.stackexchange.com/questions/312662/multicollinearity-between-lnx-and-lnx2 this post].
 
- - An elegant derivation of [https://math.stackexchange.com/questions/1456567/expected-maximum-absolute-value-of-n-iid-standard-gaussians an upper bound of the expectated maximum absolute value of i.i.d. Gaussian random variables] by [http://probability.univ.kiev.ua/index.php?page=userinfo&person=zhoraster zhoraster].
+# - An elegant derivation of [https://math.stackexchange.com/questions/1456567/expected-maximum-absolute-value-of-n-iid-standard-gaussians an upper bound of the expectated maximum absolute value of i.i.d. Gaussian random variables] by [http://probability.univ.kiev.ua/index.php?page=userinfo&person=zhoraster zhoraster].
 
 
 

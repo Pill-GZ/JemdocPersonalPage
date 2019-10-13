@@ -9,48 +9,57 @@ Applications in cybersecurity and genetics have led me to study high-dimensional
 
 = Papers and preprints
 
-- *Fundamental Limits of Exact Support Recovery in High Dimensions* 
-\n Zheng Gao, Stilian Stoev. 
+
+- /Fundamental Limits of Exact Support Recovery in High Dimensions/ 
+\n *ZG*, Stilian Stoev. 
 \n Revision submitted to Bernoulli \[[papers/FLESR_arXiv.pdf pdf]\]\[[https://arxiv.org/abs/1811.05124 arXiv]\]
-\n Best Student Paper at \[[https://web.math.pmf.unizg.hr/eva2019/competitions-1/best-student-paper Extreme Value Analysis (EVA) 2019]\].
+\n - Best Student Paper at \[[https://web.math.pmf.unizg.hr/eva2019/competitions-1/best-student-paper Extreme Value Analysis (EVA) 2019]\].
 
 
-- *Detection and Identification of Sparse Anomalies in High-dimensional Data Streams*
-\n Zheng Gao, Stilian Stoev, Michalis Kallitsis. 
-\n In preparation.
-
-
-#- *All-packet MONintoring at ISP-scale and Online Statistical Anomaly Detection in Fast Network Streams*
-#\n Zheng Gao, Rajat Tandon, Michalis Kallitsis, Stilian Stoev. 
-#\n Submitted to IEEE INFOCOM.
-
-
-- *Fast Online Low-Rank Tensor Decomposition*
-\n Zheng Gao, Ruofei Zhao.
-\n In preparation.
-
-
-- *U-PASS: Unified Power Analysis and Forensics for Qualitative Traits in Genetic Association Studies* 
-\n Zheng Gao, Jonathan Terhorst, Cristopher Van Hout, Stilian Stoev .
+- /U-PASS: Unified Power Analysis and Forensics for Qualitative Traits in Genetic Association Studies/ 
+\n *ZG*, Jonathan Terhorst, Cristopher Van Hout, Stilian Stoev .
 \n Bioinformatics (in press) \[[https://power.stat.lsa.umich.edu/u-pass/ interactive software application]\] 
-\[[https://www.biorxiv.org/content/10.1101/605766v3 bioRxiv]\]
+\[[https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz637/5545977 advance access]\]
+
+
+- /Five Shades of Grey, a.k.a. Phase Transitions in High-dimensional Multiple Testing/
+\n *ZG*
+\n Submitted. \[[https://arxiv.org/a/gao_z_1.html arXiv]\]
+\n - 1st place in the poster competition at \[[https://sites.lsa.umich.edu/stats-50th-anniversary/ Symposium for the 50-year Anniversary of the Department of Statistics at UM]\].
+
+
+- /On the Rate of Concentration of Maxima in Gaussian Arrays/
+\n Rafail Kartsioukas, *ZG*, Stilian Stoev.
+\n Submitted.
 
 
 ~~~
 {}{img_left}{felix.gif}{}{100}{}{}
 ~~~
 
-- *Five Shades of Grey* 
-\n a.k.a., Phase Transitions in High-dimensional Multiple Testing
-\n In preparation. 
-\n 1st place in the poster competition at \[[https://sites.lsa.umich.edu/stats-50th-anniversary/ Symposium for the 50-year Anniversary of the Department of Statistics at UM]\].
+
+- /Detection and Identification of Sparse Anomalies in High-dimensional Data Streams/
+\n *ZG*, Stilian Stoev, Michalis Kallitsis. 
+\n In preparation.
+
+
+#- /All-packet MONintoring at ISP-scale and Online Statistical Anomaly Detection in Fast Network Streams/
+#\n *ZG*, Rajat Tandon, Michalis Kallitsis, Stilian Stoev. 
+#\n Submitted to IEEE INFOCOM.
+
+
+- /Fast Online Low-Rank Tensor Decomposition/
+\n *ZG*, Ruofei Zhao.
+\n In preparation.
+
+
 
 
 == Prior to 2015
 
-- *The distribution of incubation and relapse times in experimental human infections with the malaria parasite Plasmodium vivax* 
-\n Andrew A Lover, Xiahong Zhao, Zheng Gao, Richard J. Coker, and Alex R. Cook.
-\n BMC Infect Dis. 2014; 14: 539. \[[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4287165/ link]\]
+- /The distribution of incubation and relapse times in experimental human infections with the malaria parasite Plasmodium vivax/
+\n Andrew A Lover, Xiahong Zhao, *ZG*, Richard J. Coker, and Alex R. Cook.
+\n BMC Infectious Diseases 2014 14:539. \[[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4287165/ link]\]
 
 
 # - [papers/FYP_Thesis.pdf Undergraduate thesis]
