@@ -3,6 +3,8 @@
 = Some statistics related things
 == collected here to share and for reference
 
+# == I know some people are using contents in this page without proper citation.
+
 
 == R & Shiny
 
@@ -23,12 +25,19 @@
 
 == Stats
 
- - Don't use [https://en.wikipedia.org/wiki/Receiver_operating_characteristic AUROC] when predicting rare events. The [https://en.wikipedia.org/wiki/Precision_and_recall precision-recall curve] handles multiple testing (through FDR) and better reflects the difficulty of the problem. 
+ - The OLS solution can be written as a weighted average of all n-choose-(p\+1) slopes defined by all subsets of (p\+1) data points that form a plane. See [https://academic.oup.com/biomet/article/75/4/779/423143 a theorem of Jacobi and its generalization
+by Mark Berman (1988)]. (I got it from [http://faculty.washington.edu/kenrice/index.html Ken Rice]'s BIOST 571 notes, Nov 2019)
+
+ - The ridge solution can be written as a weighted average of 2^p regression coefficients on all possible subsets of variables. See [https://www.jstor.org/stable/2984832?seq=1 Leamer and Chaimberlain (1976)]. (Nov 2019)
+
+ - A [./prob_puzzle2.html brainteaser] that I couldn't solve during an interview. Not really stats-related. (Oct 2019)
+
+ - Don't use [https://en.wikipedia.org/wiki/Receiver_operating_characteristic AUROC] when evaluating the predictive performance for rare events. The [https://en.wikipedia.org/wiki/Precision_and_recall precision-recall curve] handles multiple testing (through FDR) and better reflects the difficulty of the problem. 
    See also, a [https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/ post] by [https://machinelearningmastery.com/about/ Jason Brownlee]. (Jul 2019)
 
- - [https://timvieira.github.io/blog/post/2014/08/01/gumbel-max-trick-and-weighted-reservoir-sampling/ A sampling trick on data streams] (May 2019)
+ - [https://timvieira.github.io/blog/post/2014/08/01/gumbel-max-trick-and-weighted-reservoir-sampling/ A sampling trick on data streams]. (May 2019)
 
- - A [./prob_puzzle.nb.html probability puzzle] that I couldn't solve during an interview.
+ - A [./prob_puzzle.nb.html probability puzzle] that I couldn't solve during an interview. (Dec 2018)
 
  - My second favorite statistical head-scratcher (after [https://en.wikipedia.org/wiki/Stein%27s_example Stein's paradox]) is [./thresholding_paradox.nb.html the sub-optimality of thresholding procedures] (partly because we found it). (Nov 2018)
 
@@ -46,7 +55,7 @@
 
  - You cannot arbitrarily design full conditional distributions and expect them to be compatible (only when they are compatible can you use Brook's lemma). I was suprised how this is glossed over by many people. ([./incompatible_full_conditionals.html numerical example], [https://www.jstor.org/stable/2289858 theory])
 
- - There is little reason to unanimously prefer [https://en.wikipedia.org/wiki/Fisher's_method Fisher's method] (sum of negative log p-values) over, say, Edginton's Method (sum of p-values) for combining p-values (although it is better known that Fisher's method and Bonferroni's method are good at picking out different alternatives). In some cases of small and distributed effects, the latter wins; see [./combine_p-values.html numerical example], [./Liptak_1958.pdf theory]. In particular, Edginton's Method is optimal when the p-values under the alternative are truncated exponentials.
+ - There is little reason to unconditionally favor [https://en.wikipedia.org/wiki/Fisher's_method Fisher's method] (sum of negative log p-values) over, say, Edginton's Method (sum of p-values) for combining p-values (although it is better known that Fisher's method and Bonferroni's method are good at picking out different alternatives). In some cases of small and distributed effects, the latter wins; see [./combine_p-values.html numerical example], [./Liptak_1958.pdf theory]. In particular, Edginton's Method is optimal when the p-values under the alternative are truncated exponentials.
 
  - Don't include both log(x) and log^2(x) in your linear model; see [https://stats.stackexchange.com/questions/312662/multicollinearity-between-lnx-and-lnx2 this post].
 

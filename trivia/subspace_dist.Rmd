@@ -1,11 +1,11 @@
 ---
 title: "Variational characterization of distance between subspaces"
-author: "GZ, Xuefei"
+author: "Zheng Gao"
 date: "February 16, 2017"
 output:
+  html_document: default
   pdf_document: default
   html_notebook: default
-  html_document: default
 ---
 
 For $S_1$, $S_2$, two linear subspaces of ${\rm I\!R}^m$ (of dimensions $k_1$, $k_2$), with projection matrices $P_{S_1}$, $P_{S_2}$,  we define the distances between $S_1$ and $S_2$ as
