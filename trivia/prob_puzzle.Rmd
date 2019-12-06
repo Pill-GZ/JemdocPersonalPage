@@ -36,7 +36,7 @@ The probability of winning is the same as the probability of HHT or TTH happenin
 ### Optimality
 I was told that smart people were able to solve the puzzle in under a minute.
 I'm not in that category (and unsuprisingly failed the interview).
-Nevertheless, the smart interviewer himself was not aware of the optimaility of the constructed solution.
+Nevertheless, the interviewer himself was not aware of the optimaility of the constructed solution.
 
 Optimality stems from the following argument.
 
@@ -81,8 +81,8 @@ sol$solution
 
 
 ### Generalizations
-The interviewer also could not figure out a solution when the game is played with different numbers of players. (He was aware, or told, that a solution exists for 7 players.)
-He may be happy to find out that there is a solution for the 5-player-game too.
+The interviewer told me that there exist solutions for games played with different numbers of players. (Although he did not know the solutions.)
+Here I state some generalizations.
 
 Observe that the solution to the original 3-player-problem tries to predict "balanced" outcomes, so that the most common outcomes are covered with correct guesses.
 Indeed, balanced coins tend to produce roughly equal number of Heads and Tails.
