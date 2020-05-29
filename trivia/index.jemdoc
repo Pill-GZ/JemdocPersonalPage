@@ -25,6 +25,8 @@
 
 == Stats
 
+ - CV errors of selected models are biased just as naive estimation of selected variables are. See [https://link.springer.com/article/10.1186/1471-2105-7-91 Varma & Simon (2006)], [http://www.jmlr.org/papers/v11/cawley10a.html Cawley & Talbot (2010)], and [https://www.sciencedirect.com/science/article/pii/S0020025511006773 Bergmeir & Benítez (2012)] (Feb 2020).
+
  - The OLS solution can be written as a weighted average of all n-choose-(p\+1) slopes defined by all subsets of (p\+1) data points that form a plane. See [https://academic.oup.com/biomet/article/75/4/779/423143 a theorem of Jacobi and its generalization
 by Mark Berman (1988)]. (I got it from [http://faculty.washington.edu/kenrice/index.html Ken Rice]'s BIOST 571 notes, Nov 2019)
 
