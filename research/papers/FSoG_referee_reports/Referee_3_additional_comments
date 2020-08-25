@@ -1,0 +1,33 @@
+Additional comments from Referee 3
+
+In short, the technical level of the paper is pretty low. The author needs to travel a long way from here to a paper published in Annals of Statistics. In fact, the main contribution of the paper seems to be
+
+• Extending the phase transition from the normal means problem to the χ2 setting.
+
+• Relating the theoretical problem to an interesting application problem.
+
+The second one is interesting but non-essential. For the first one, technical wise, the author only needs to extend what we have in the literature on the Gaussian case (Donoho and Jin (2004, 2015), Genovese, Jin, Wasserman, and Yao (2012), Ji and Jin (2012), Jin, Zhang, and Zhang (2014), Ke, Jin, and Fan (2014)) to the χ2-case.
+
+An important point I wish to raise is that, the four papers, Genovese, Jin, Wasserman, and Yao (2012), Ji and Jin (2012), Jin, Zhang, and Zhang (2014), Ke, Jin, and Fan (2014)) consider the much more difficult setting of the regression model
+
+Y =Xβ+ε, ε∼N(0,σ^2 I_n),
+
+and have explicitly worked out the phase transition in such settings. Those papers derive the optimal rate for variable section in Hamming distance, which can be used to derive all 5 curves in Figure 1 of the current paper. Note that these results includes the orthogonal design settings (i.e., X^T X = I) and so the regression model reduces to a normal means setting.
+
+For more details, if we count the 5 curves in Figure from the top to bottom:
+
+• Curve 1-2 can be easily deduced from these work, for example, Theorem 1.1 and Theorem 2.1 in Ji and Jin (2012). Note that Ji and Jin (2012) is on the regression model with non- orthogonal design, so it is much harder than the setting considered in the current paper, where individual tests are independent of each other.
+
+• In particular, Curve 1 is carefully discussed in Genovese, Jin, Wasserman, and Yao (2012), Ji and Jin (2012), Jin, Zhang, and Zhang (2014), Ke, Jin, and Fan (2014), in the regression setting.
+
+• Curve 4-5 (lowest) are given by Donoho and Jin (2004, 2015). See also Hall and Jin (2008, 2010), Cai, Jin, Low (2007), among others.
+
+It is worthy to note that in Genovese, Jin, Wasserman, and Yao (2012), Ji and Jin (2012), Jin, Zhang, and Zhang (2014), Ke, Jin, and Fan (2014), the lower bounds are studied over all possible methods, and very hard analyses are needed to compute the L1-distance between two high dimensional joint densities (of correlated tests) or the Hellinger distance, while the current paper focuses on thresholding procedure for independent data, so their lower bound argument is a much weaker version (and the required techniques is relatively trivial).
+
+In summary, the two points are:
+
+• The authors seem to be aware some of these works (for example, Donoho and Jin (2004), Ji and Jin (2012), and Jin, Zhang, and Zhang (2014) are cited. However, it seems the author has only digested Donoho and Jin (2004), but has not yet digested the sequel of works Genovese, Jin, Wasserman, and Yao (2012), Ji and Jin (2012), Jin, Zhang, and Zhang (2014), Ke, Jin, and Fan (2014).
+
+I don’t think the author intends to not to cite these work. I think he probably has not realized that what he is doing has already been done in a more difficult setting.
+
+• The techniques required in the current paper is quite low, since the authors only focuses on thresholding procedures for independent data.
